@@ -2,7 +2,7 @@
 Interactive Map for GTA V, developed using LeafletJS
 
 ## Deploy to GitHub Pages
-This repository includes a GitHub Actions workflow at `/home/runner/work/gta5-map/gta5-map/Kaleb1583/gta5-map/.github/workflows/deploy-pages.yml` that deploys the site to GitHub Pages on pushes to `main`.
+This repository includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml` that deploys the site to GitHub Pages on pushes to `main`.
 
 To enable it in GitHub:
 1. Go to **Settings → Pages**.
