@@ -34,6 +34,10 @@ var baseLayers = {
     "Terrain": terrain
 };
 
+L.marker([400, 350])
+  .addTo(map)
+  .bindPopup("Test");
+
 atlas.addTo(map);
 L.control.layers(baseLayers).addTo(map);
 
