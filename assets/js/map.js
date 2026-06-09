@@ -3,13 +3,9 @@ var mapElem = document.getElementById("map");
 
 map.options.minZoom = 2;
 map.options.maxZoom = 7;
-const activeColor   = "rgb(27, 118, 200)";
-const inactiveColor = "rgb(74, 74, 74)";
-
-var optionColorSelected = '#000'
 
 const settings = {
-    attribution: "<a href='https://github.com/compromit'>Compromit</a>",
+    attribution: "",
     maxZoom: 8,
     id: '',
     tileSize: 256,
