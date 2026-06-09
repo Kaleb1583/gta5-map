@@ -38,6 +38,10 @@ L.marker([1, 1])
   .addTo(map)
   .bindPopup("Test");
 
+map.on('click', function (e) {
+    console.log(e.latlng);
+});
+
 atlas.addTo(map);
 L.control.layers(baseLayers).addTo(map);
 
