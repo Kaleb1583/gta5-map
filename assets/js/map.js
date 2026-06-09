@@ -34,7 +34,7 @@ var baseLayers = {
     "Terrain": terrain
 };
 
-L.marker([400, 350])
+L.marker([1, 1])
   .addTo(map)
   .bindPopup("Test");
 
