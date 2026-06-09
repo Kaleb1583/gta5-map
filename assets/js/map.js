@@ -38,7 +38,7 @@ L.marker([-65.4918398785205, -46.801231304339915])
   .addTo(map)
   .bindPopup("LSPD - Vespucci");
 
-L.marker([55.29579867523765, -31.662597656250004])
+L.marker([-55.29579867523765, -31.662597656250004])
   .addTo(map)
   .bindPopup("LSPD - Rockford Hills");
 
