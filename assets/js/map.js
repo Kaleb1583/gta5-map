@@ -34,9 +34,9 @@ var baseLayers = {
     "Terrain": terrain
 };
 
-L.marker([1, 1])
+L.marker([-65.4918398785205, -46.801231304339915])
   .addTo(map)
-  .bindPopup("Test");
+  .bindPopup("LSPD - Vespucci");
 
 map.on('click', function (e) {
     console.log(e.latlng);
