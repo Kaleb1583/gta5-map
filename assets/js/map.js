@@ -41,6 +41,12 @@ L.marker([-65.4918398785205, -46.801231304339915])
 L.marker([55.29579867523765, -31.662597656250004])
   .addTo(map)
   .bindPopup("LSPD - Rockford Hills");
+
+L.marker([-53.4357192066942, 0.2929687500000134])
+  .addTo(map)
+  .bindPopup("LSPD - Vinewood");
+
+
 map.on('click', function (e) {
     console.log(e.latlng);
 });
