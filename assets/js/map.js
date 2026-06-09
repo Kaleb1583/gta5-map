@@ -22,15 +22,6 @@ var editableLayers = new L.FeatureGroup();
 
 map.addLayer(editableLayers);
 
-map.on(L.Draw.Event.CREATED, function (e) {
-    var type = e.layerType,
-        layer = e.layer;
-
-    e.layer.options.color = document.getElementById("colorpicker").value;
-
-    editableLayers.addLayer(layer);
-});
-
 const atlas     = L.tileLayer('./assets/map/tiles-atlas/{z}/{x}/{y}.png', settings);
 const terrain   = L.tileLayer('./assets/map/tiles-terrain/{z}/{x}/{y}.png', settings);
 const satellite = L.tileLayer('./assets/map/tiles-satellite/{z}/{x}/{y}.png', settings);
@@ -46,7 +37,6 @@ var baseLayers = {
     "Satellite": satellite,
     "Terrain": terrain
 };
-
 
 atlas.addTo(map);
 L.control.layers(baseLayers).addTo(map);
