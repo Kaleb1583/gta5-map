@@ -46,6 +46,9 @@ L.marker([-53.4357192066942, 0.2929687500000134])
   .addTo(map)
   .bindPopup("LSPD - Vinewood");
 
+L.marker([-70.30150471238284, 9.448242187500002])
+  .addTo(map)
+  .bindPopup("LSPD - La Mesa");
 
 map.on('click', function (e) {
     console.log(e.latlng);
