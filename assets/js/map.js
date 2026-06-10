@@ -90,9 +90,14 @@ L.marker([-67.5902474708725, -62.31201171875],
     .bindPopup("LSPD Substation - Del Perro (Pier)");
 
 L.marker([-78.64483199293961, -40.34020841008464],
-  { icon: grayIcon })
+  { icon: redIcon })
 	.addTo(map)
-    .bindPopup("LSPD Substation - Del Perro (Pier)");
+    .bindPopup("NOOSE - LSIA");
+
+L.marker([-59.104606327504804, 57.14599609375],
+  { icon: redIcon })
+	.addTo(map)
+    .bindPopup("NOOSE HQ - Palmino Highlands");
 
 
 map.on('click', function (e) {
