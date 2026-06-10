@@ -123,6 +123,11 @@ L.marker([12.424287327390914, 34.22851562499999],
 	.addTo(map)
     .bindPopup("SASPA - Bolingbroke Penitentiary");
 
+L.marker([lat: 27.823271732708104, -79.46289062500001],
+  { icon: redIcon })
+	.addTo(map)
+    .bindPopup("US Military - Fort Zancudo");
+
 map.on('click', function (e) {
     console.log(e.latlng);
 });
