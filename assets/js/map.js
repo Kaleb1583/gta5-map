@@ -50,6 +50,11 @@ L.marker([-70.30150471238284, 9.448242187500002])
   .addTo(map)
   .bindPopup("LSPD - La Mesa");
 
+L.marker([73.1645422233497, -4.855957031250001])
+  .addTo(map)
+  .bindPopup("LSSD Sheriff Station - Davis");
+
+
 map.on('click', function (e) {
     console.log(e.latlng);
 });
