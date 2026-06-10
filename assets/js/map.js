@@ -68,7 +68,10 @@ const grayIcon = new L.Icon({
   shadowSize: [41, 41]
 });
 
-L.marker([-72.40854450390432, -53.12988281250001], { icon: grayIcon }).addTo(map);
+L.marker([-72.40854450390432, -53.12988281250001],
+  { icon: grayIcon })
+	.addTo(map)
+    .bindPopup("LSPD - Vespucci Beach");
 
 
 map.on('click', function (e) {
