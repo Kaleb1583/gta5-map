@@ -54,6 +54,10 @@ L.marker([73.1645422233497, -4.855957031250001])
   .addTo(map)
   .bindPopup("LSSD Sheriff Station - Davis");
 
+L.marker([-67.27377816220924, -2.3291015625000004])
+  .addTo(map)
+  .bindPopup("LSPD - Mission Row");
+
 
 map.on('click', function (e) {
     console.log(e.latlng);
