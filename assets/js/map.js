@@ -71,8 +71,13 @@ const grayIcon = new L.Icon({
 L.marker([-72.40854450390432, -53.12988281250001],
   { icon: grayIcon })
 	.addTo(map)
-    .bindPopup("LSPD - Vespucci Beach");
+    .bindPopup("LSPD Substation - Vespucci Beach");
 
+L.marker([-67.5902474708725, -62.31201171875}
+],
+  { icon: grayIcon })
+	.addTo(map)
+    .bindPopup("LSPD Substation - Del Perro (Pier)");
 
 map.on('click', function (e) {
     console.log(e.latlng);
