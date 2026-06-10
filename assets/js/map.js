@@ -113,6 +113,11 @@ L.marker([40.341094329488506, 38.964843750000014],
 	.addTo(map)
     .bindPopup("LSSD Sheriff Station - Sandy Shores");
 
+L.marker([73.67901687017999, -27.834472656249996],
+  { icon: yellowIcon })
+	.addTo(map)
+    .bindPopup("LSSD Sheriff Station - Paleto Bay");
+
 
 map.on('click', function (e) {
     console.log(e.latlng);
