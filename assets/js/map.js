@@ -125,3 +125,5 @@ map.addEventListener("baselayerchange", e => mapElem.style.backgroundColor = col
 
 window.addEventListener('resize', 
 	() => map.getViewPort().resize());
+
+		//.......	   
