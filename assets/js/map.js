@@ -68,16 +68,32 @@ const grayIcon = new L.Icon({
   shadowSize: [41, 41]
 });
 
+
+const redIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
 L.marker([-72.40854450390432, -53.12988281250001],
   { icon: grayIcon })
 	.addTo(map)
     .bindPopup("LSPD Substation - Vespucci Beach");
 
-L.marker([-67.5902474708725, -62.31201171875}
-],
+L.marker([-67.5902474708725, -62.31201171875],
   { icon: grayIcon })
 	.addTo(map)
     .bindPopup("LSPD Substation - Del Perro (Pier)");
+
+L.marker([-78.64483199293961, -40.34020841008464],
+  { icon: grayIcon })
+	.addTo(map)
+    .bindPopup("LSPD Substation - Del Perro (Pier)");
+
 
 map.on('click', function (e) {
     console.log(e.latlng);
