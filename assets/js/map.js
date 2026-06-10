@@ -118,6 +118,10 @@ L.marker([73.67901687017999, -27.834472656249996],
 	.addTo(map)
     .bindPopup("LSSD Sheriff Station - Paleto Bay");
 
+L.marker([12.424287327390914, 34.22851562499999],
+  { icon: redIcon })
+	.addTo(map)
+    .bindPopup("SASPA - Bolingbroke Penitentiary");
 
 map.on('click', function (e) {
     console.log(e.latlng);
