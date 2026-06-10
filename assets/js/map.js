@@ -107,6 +107,11 @@ L.marker([-59.104606327504804, 57.14599609375],
 	.addTo(map)
     .bindPopup("NOOSE HQ - Palmino Highlands");
 
+L.marker([40.341094329488506, 38.964843750000014],
+  { icon: yellowIcon })
+	.addTo(map)
+    .bindPopup("LSSD Sheriff Station - Sandy Shores");
+
 
 map.on('click', function (e) {
     console.log(e.latlng);
