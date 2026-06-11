@@ -98,6 +98,16 @@ L.marker([-67.5902474708725, -62.31201171875],
 	.addTo(map)
     .bindPopup("LSPD Substation - Del Perro (Pier)");
 
+L.marker([-36.78171185627811, -3.8891601562500004],
+  { icon: grayIcon })
+	.addTo(map)
+    .bindPopup("SASParkRangers - Beaver Bush (Vinewood Hills)");
+
+L.marker([62.72584244423216, -58.057861328125],
+  { icon: grayIcon })
+	.addTo(map)
+    .bindPopup("SASParkRangers - Raton Canyon (Paleto) ");
+
 L.marker([-78.64483199293961, -40.34020841008464],
   { icon: redIcon })
 	.addTo(map)
