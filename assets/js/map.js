@@ -85,7 +85,7 @@ L.marker([-62.83508901142283, -11.154785156250009],
 L.marker([21.343959442299997, 44.66308593749999],
   { icon: redIcon })
 	.addTo(map)
-    .bindPopup("IAA (CIA)");
+    .bindPopup("IAA (CIA) Satellite Relay Station");
 
 L.marker([-78.64483199293961, -40.34020841008464],
   { icon: redIcon })
