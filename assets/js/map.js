@@ -63,13 +63,17 @@ const yellowIcon = new L.Icon({
   shadowSize: [41, 41]
 });
 
-const lightBlueIcon = new L.Icon({
-  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
-  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+const lightBlueIcon = L.divIcon({
+  className: "custom-marker",
+  html: `
+    <svg width="25" height="41" viewBox="0 0 25 41">
+      <path d="M12.5 0C5.6 0 0 5.6 0 12.5C0 22.5 12.5 41 12.5 41S25 22.5 25 12.5C25 5.6 19.4 0 12.5 0Z"
+        fill="#8ecbff" stroke="#2b6cb0" stroke-width="1"/>
+      <circle cx="12.5" cy="12.5" r="4" fill="white"/>
+    </svg>
+  `,
   iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34],
-  shadowSize: [41, 41]
+  iconAnchor: [12, 41]
 });
 
 L.marker([-64.25095922404964, -10.825195312500009],
