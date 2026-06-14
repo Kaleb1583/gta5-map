@@ -72,6 +72,21 @@ const lightBlueIcon = new L.Icon({
   shadowSize: [41, 41]
 });
 
+L.marker([-64.25095922404964, -10.825195312500009],
+  { icon: redIcon })
+	.addTo(map)
+    .bindPopup("Federal Investigation Bureau (FBI) HQ");
+
+L.marker([-62.83508901142283, -11.154785156250009],
+  { icon: redIcon })
+	.addTo(map)
+    .bindPopup("Internal Affairs Agency (CIA) HQ");
+
+L.marker([21.343959442299997, 44.66308593749999],
+  { icon: redIcon })
+	.addTo(map)
+    .bindPopup("IAA (CIA)");
+
 L.marker([-78.64483199293961, -40.34020841008464],
   { icon: redIcon })
 	.addTo(map)
