@@ -2,7 +2,7 @@ var map = new L.map('map').setView([0, 0.0], 2);
 var mapElem = document.getElementById("map");
 
 map.options.minZoom = 2;
-map.options.maxZoom = 7;
+map.options.maxZoom = 8;
 
 const settings = {
     attribution: "",
