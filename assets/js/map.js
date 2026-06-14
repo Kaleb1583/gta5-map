@@ -92,6 +92,10 @@ L.marker([12.424287327390914, 34.22851562499999],
 	.addTo(map)
     .bindPopup("SASPA - Bolingbroke Penitentiary");
 
+L.marker([-47.035190564021114, -11.813964843750009],
+  { icon: redIcon })
+	.addTo(map)
+    .bindPopup("Vincents Lockup (Abandoned FBI Bldg)");
 
 
 L.marker([-73.1645422233497, -4.855957031250001])
