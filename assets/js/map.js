@@ -166,7 +166,7 @@ L.marker([-67.5902474708725, -62.31201171875],
 
 
 L.marker([-72.32690632984789, -53.32763671875001],
-  { icon: lightBlueIcon })
+  { icon: grayIcon })
 	.addTo(map)
     .bindPopup("SASPR (/LSPD) - Vespucci Beach ");
 
