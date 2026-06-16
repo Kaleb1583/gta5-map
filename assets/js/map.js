@@ -153,23 +153,23 @@ L.marker([-67.27377816220924, -2.3291015625000004])
   .addTo(map)
   .bindPopup("LSPD Station - Mission Row");
 
-
+/*
 L.marker([-72.32690632984789, -53.32763671875001],
   { icon: lightBlueIcon })
 	.addTo(map)
     .bindPopup("LSPD Substation - Vespucci Beach");
-
+*/
 L.marker([-67.5902474708725, -62.31201171875],
   { icon: lightBlueIcon })
 	.addTo(map)
     .bindPopup("LSPD Substation - Del Perro (Pier)");
 
-
+/*
 L.marker([-72.32690632984789, -53.32763671875001],
   { icon: grayIcon })
 	.addTo(map)
     .bindPopup("SASPR (/LSPD) - Vespucci Beach ");
-
+*/
 L.marker([-36.78171185627811, -3.8891601562500004],
   { icon: grayIcon })
 	.addTo(map)
