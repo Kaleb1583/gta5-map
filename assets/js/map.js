@@ -135,23 +135,23 @@ L.marker([73.67901687017999, -27.834472656249996],
 
 L.marker([-65.4918398785205, -46.801231304339915])
   .addTo(map)
-  .bindPopup("LSPD - Vespucci");
+  .bindPopup("LSPD Station - Vespucci");
 
 L.marker([-55.29579867523765, -31.662597656250004])
   .addTo(map)
-  .bindPopup("LSPD - Rockford Hills");
+  .bindPopup("LSPD Station - Rockford Hills");
 
 L.marker([-53.4357192066942, 0.2929687500000134])
   .addTo(map)
-  .bindPopup("LSPD - Vinewood");
+  .bindPopup("LSPD Station - Vinewood");
 
 L.marker([-70.30150471238284, 9.448242187500002])
   .addTo(map)
-  .bindPopup("LSPD - La Mesa");
+  .bindPopup("LSPD Station - La Mesa");
 
 L.marker([-67.27377816220924, -2.3291015625000004])
   .addTo(map)
-  .bindPopup("LSPD - Mission Row");
+  .bindPopup("LSPD Station - Mission Row");
 
 
 L.marker([-72.40854450390432, -53.12988281250001],
