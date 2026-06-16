@@ -43,6 +43,17 @@ const grayIcon = new L.Icon({
   popupAnchor: [1, -34],
   shadowSize: [41, 41]
 });
+
+// vespucci park ranger, greyIcon but smaller
+const vprGrayIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-grey.png',
+  shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+  iconSize: [16, 26],
+  iconAnchor: [8, 26],
+  popupAnchor: [1, -22],
+  shadowSize: [26, 26]
+});
+
 const redIcon = new L.Icon({
   iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
@@ -166,9 +177,9 @@ L.marker([-67.5902474708725, -62.31201171875],
 
 
 L.marker([-72.4554163778595, -52.94677734375002],
-  { icon: grayIcon })
+  { icon: vprGrayIcon })
 	.addTo(map)
-    .bindPopup("SASPR (/LSPD) - Vespucci Beach ");
+    .bindPopup("SASPR - Vespucci Beach ");
 
 L.marker([-36.78171185627811, -3.8891601562500004],
   { icon: grayIcon })
