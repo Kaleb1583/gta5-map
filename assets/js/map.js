@@ -51,7 +51,8 @@ const vprGrayIcon = new L.Icon({
   iconSize: [16, 26],
   iconAnchor: [8, 26],
   popupAnchor: [1, -22],
-  shadowSize: [26, 26]
+  shadowSize: [26, 26],
+  zOffsetIndex: 1000
 });
 
 const redIcon = new L.Icon({
